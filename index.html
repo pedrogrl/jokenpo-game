@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Jokenpo game</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main id="principal">
+        <h1>JOKENPÔ</h1>
+
+        <div id="abas">
+            <div id="jogador1">
+                <h2 id="jogador1-nome">Player 1</h2>
+                <span id="jogador1-pontos">0</span>                
+                <ul id="jogador1-escolhas">
+                    <li>
+                        <a href="#" id="jogador1-escolha-1" class="jogador1-escolha">
+                            <img src="./src/img/pedra.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="jogador1-escolha-2" class="jogador1-escolha">
+                            <img src="./src/img/papel.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="jogador1-escolha-3" class="jogador1-escolha">
+                            <img src="./src/img/tesoura.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="versus">
+                vs
+            </div>
+
+            <div id="maquina">
+                <h2 id="maquina-nome">Machine</h2>
+                <span id="maquina-pontos">0</span>                
+                <ul id="maquina-escolhas">
+                    <li>
+                        <a href="#" id="maquina-escolha-1">
+                            <img src="./src/img/pedra.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="maquina-escolha-2">
+                            <img src="./src/img/papel.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="maquina-escolha-3">
+                            <img src="./src/img/tesoura.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="mensagem">
+            msg
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+body {
+    background-color: #111111;
+    font-family: 'Montserrat', monospace;
+    color: white;
+}
+
+#principal h1{
+    text-align: center;
+}
+
+#abas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#jogador1, #maquina {
+    /* flex-grow: 1; */
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    width: 35%;
+}
+
+#jogador1-nome, #maquina-nome {
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+#jogador1-pontos, #maquina-pontos {
+    font-size: 48px;
+    position: absolute;
+    top: 8px;
+}
+
+#jogador1-escolhas , #maquina-escolhas{
+    list-style: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+#jogador1-escolhas li, #maquina-escolhas li {
+    display: inline;
+    padding: 0 5px;
+}
+
+#jogador1-escolhas img, #maquina-escolhas img{
+    max-width: 80px;
+    opacity: 0.4;
+}
+
+#jogador1-escolhas img:hover{
+    opacity: 1;
+}
+
+#maquina-escolhas a:hover {
+    cursor: default;
+}
+
+#jogador1 {
+    background-color: #3498db;
+}
+
+#jogador1-pontos {
+    right: 20px;
+}
+
+#maquina-pontos {
+    left: 20px
+}
+
+#versus {
+    font-size: 80px;
+    padding: 0 20px;
+}
+
+#maquina {
+    background-color: #ff7675;
+}
+
+#maquina-nome {
+    text-align: right;
+}
+
+#mensagem {
+    text-align: center;
+    padding: 20px 0;
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+#jogador1-escolhas .selecionado img, #maquina-escolhas .selecionado img{
+    opacity: 1;
+}
